@@ -7,6 +7,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 150px;
 }
 .nav-title{
 color: #181818;
@@ -23,6 +24,16 @@ font-size: 20px;
 font-weight: 700;
 border: 0;
 }
+.btn-con{
+border-radius: 5px;
+background:white;
+color: #FD6E0A;
+padding: 18px 35px 17px 36px;
+font-size: 20px;
+font-weight: 700;
+border: 1px solid #FD6E0A;
+
+}
 .text-primary{
     color:#FD6E0A;
 }
@@ -37,4 +48,17 @@ nav li{
 nav a{
      text-decoration: none;
      color: #474747;
+}
+/*header releted styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .propic{
+    width: 500px;
 }
