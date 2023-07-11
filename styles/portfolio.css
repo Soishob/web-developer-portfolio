@@ -41,6 +41,9 @@ font-size: 35px;
 font-weight: 700;
 
 }
+.section-descrip{
+    text-align: center;
+}
 .text-primary{
     color:#FD6E0A;
 }
@@ -118,4 +121,15 @@ margin: 130px 0;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+}
+#what-i-do-descrip{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+
 }
