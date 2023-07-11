@@ -175,7 +175,23 @@ hr{
     margin-top: 50px;
 }
 footer{
+    margin-top: 131px;
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 200px;
+}
+.socialicon a{
+    margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+.contacti input[type="text"], .contacti input[type="email"], textarea{
+    display: flex;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 461px;
 }
