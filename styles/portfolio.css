@@ -127,9 +127,25 @@ margin: 130px 0;
 }
 .skill-container{
     display: flex;
+    gap: 24px;
 }
 .skills{
     padding: 30px;
-    gap: 24px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+
+}
+.skill-descrip{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume-column-title{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
 
 }
