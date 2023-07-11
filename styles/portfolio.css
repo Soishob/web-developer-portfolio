@@ -34,6 +34,13 @@ font-weight: 700;
 border: 1px solid #FD6E0A;
 
 }
+.section-title{
+color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
 .text-primary{
     color:#FD6E0A;
 }
@@ -52,13 +59,49 @@ nav a{
 /*header releted styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+
 }
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
     
 }
 .banner .propic{
     width: 500px;
+}
+.h3{
+color: #474747;
+font-size: 45px;
+margin-bottom: 0;
+}
+.h1{
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+color:#181818;
+margin-top: 5px;
+
+}
+.para{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 585px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.about{
+    border-radius: 10px;
+background: #FFF8F3;
+padding: 130px;
+margin: 130px 0;
 }
